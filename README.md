@@ -1,1 +1,1 @@
-# Proyecto-sistemas-intesivos
+# Proyecto-sistemas-intensivos
