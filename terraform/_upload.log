@@ -1,0 +1,4 @@
+﻿Completed 6.9 KiB/6.9 KiB (13.2 KiB/s) with 1 file(s) remaining
+upload: src\spark\streaming_job.py to s3://trafico-valle-artifacts-609789571098/scripts/streaming_job.py
+
+EXIT=0

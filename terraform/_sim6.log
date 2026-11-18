@@ -1,0 +1,253 @@
+﻿Conectando a a1051pcdpv4k7n-ats.iot.us-east-1.amazonaws.com ...
+Conectado. Publicando en trafico/lecturas
+[1] Av Las Vegas Medellin: 78.3 km/h
+[2] Av 33 Medellin: 11.1 km/h
+[3] Av Las Vegas Sabaneta: 0.3 km/h
+[4] Av San Juan Medellin: 78.9 km/h
+[5] Av 80 Medellin: 38.2 km/h
+[6] Av 33 Medellin: 56.1 km/h
+[7] Av El Poblado Medellin: 31.1 km/h
+[8] Av Oriental Medellin: 33.8 km/h
+[9] Av Regional Caldas: 0.2 km/h
+[10] Av 80 Bello: 0.2 km/h
+[11] Av Guayabal Medellin: 0.0 km/h
+[12] Av 80 Medellin: 51.5 km/h
+[13] Av 33 Medellin: 8.3 km/h
+[14] Av 80 Medellin: 44.2 km/h
+[15] Av Regional Bello: 0.3 km/h
+[16] Av Las Vegas Sabaneta: 31.7 km/h
+[17] Av Guayabal Medellin: 66.4 km/h
+[18] Av Las Vegas Envigado: 52.3 km/h
+[19] Av El Poblado Envigado: 8.9 km/h
+[20] Av Las Vegas Envigado: 69.5 km/h
+[21] Av Regional Caldas: 72.2 km/h
+[22] Av Oriental Medellin: 0.5 km/h
+[23] Av Regional Bello: 0.0 km/h
+[24] Av Guayabal Medellin: 11.3 km/h
+[25] Av San Juan Medellin: 56.8 km/h
+[26] Av El Poblado Medellin: 10.7 km/h
+[27] Av Regional Bello: 52.7 km/h
+[28] Av San Juan Medellin: 54.7 km/h
+[29] Av 80 Medellin: 62.4 km/h
+[30] Av Las Vegas Medellin: 72.3 km/h
+[31] Av El Poblado Medellin: 35.7 km/h
+[32] Av El Poblado Envigado: 40.6 km/h
+[33] Av 33 Medellin: 11.3 km/h
+[34] Av Las Vegas Sabaneta: 43.8 km/h
+[35] Av Las Vegas Medellin: 55.6 km/h
+[36] Av El Poblado Envigado: 60.0 km/h
+[37] Av San Juan Medellin: 9.3 km/h
+[38] Av Regional La Estrella: 62.5 km/h
+[39] Av 80 Medellin: 30.1 km/h
+[40] Av San Juan Medellin: 43.6 km/h
+[41] Av Las Vegas Sabaneta: 50.7 km/h
+[42] Av Regional Caldas: 59.6 km/h
+[43] Av San Juan Medellin: 50.1 km/h
+[44] Av Regional Bello: 56.8 km/h
+[45] Av Guayabal Medellin: 30.0 km/h
+[46] Av El Poblado Medellin: 60.4 km/h
+[47] Av Regional Medellin: 50.6 km/h
+[48] Av Las Vegas Medellin: 58.0 km/h
+[49] Av El Poblado Medellin: 0.3 km/h
+[50] Av El Poblado Envigado: 62.0 km/h
+[51] Av San Juan Medellin: 39.9 km/h
+[52] Av San Juan Medellin: 53.3 km/h
+[53] Av Regional Bello: 43.0 km/h
+[54] Av 80 Bello: 61.8 km/h
+[55] Av Las Vegas Medellin: 0.0 km/h
+[56] Av Oriental Medellin: 78.1 km/h
+[57] Av Regional Medellin: 0.4 km/h
+[58] Av Las Vegas Sabaneta: 8.9 km/h
+[59] Av Las Vegas Envigado: 38.6 km/h
+[60] Av Las Vegas Medellin: 78.6 km/h
+[61] Av Regional Bello: 73.8 km/h
+[62] Av Las Vegas Envigado: 49.8 km/h
+[63] Av El Poblado Medellin: 73.4 km/h
+[64] Av Las Vegas Sabaneta: 56.7 km/h
+[65] Av Las Vegas Sabaneta: 73.5 km/h
+[66] Av Regional Bello: 57.7 km/h
+[67] Av Las Vegas Envigado: 35.9 km/h
+[68] Av Las Vegas Medellin: 64.2 km/h
+[69] Av San Juan Medellin: 74.7 km/h
+[70] Av Oriental Medellin: 71.7 km/h
+[71] Av Guayabal Medellin: 63.0 km/h
+[72] Av Regional La Estrella: 64.4 km/h
+[73] Av Oriental Medellin: 60.2 km/h
+[74] Av Las Vegas Sabaneta: 33.3 km/h
+[75] Av Regional Medellin: 72.6 km/h
+[76] Av Las Vegas Medellin: 70.3 km/h
+[77] Av 80 Bello: 52.3 km/h
+[78] Av El Poblado Medellin: 10.3 km/h
+[79] Av Regional Medellin: 38.5 km/h
+[80] Av Regional Bello: 40.7 km/h
+[81] Av 80 Medellin: 10.0 km/h
+[82] Av Guayabal Medellin: 36.8 km/h
+[83] Av 33 Medellin: 46.2 km/h
+[84] Av El Poblado Medellin: 0.2 km/h
+[85] Av Guayabal Medellin: 0.2 km/h
+[86] Av El Poblado Envigado: 76.6 km/h
+[87] Av San Juan Medellin: 0.2 km/h
+[88] Av 80 Bello: 46.2 km/h
+[89] Av 80 Bello: 36.8 km/h
+[90] Av Oriental Medellin: 48.8 km/h
+[91] Av Las Vegas Medellin: 10.4 km/h
+[92] Av Regional Caldas: 0.4 km/h
+[93] Av El Poblado Medellin: 0.0 km/h
+[94] Av Regional La Estrella: 10.7 km/h
+[95] Av El Poblado Envigado: 0.4 km/h
+[96] Av Regional Medellin: 0.2 km/h
+[97] Av 80 Bello: 53.8 km/h
+[98] Av Regional La Estrella: 0.1 km/h
+[99] Av Regional Medellin: 67.7 km/h
+[100] Av Regional La Estrella: 0.5 km/h
+[101] Av 33 Medellin: 46.6 km/h
+[102] Av El Poblado Envigado: 62.0 km/h
+[103] Av Regional Bello: 39.1 km/h
+[104] Av Regional Bello: 0.4 km/h
+[105] Av Guayabal Medellin: 0.4 km/h
+[106] Av Regional Bello: 78.1 km/h
+[107] Av Regional Medellin: 59.2 km/h
+[108] Av Oriental Medellin: 11.8 km/h
+[109] Av Regional Caldas: 51.3 km/h
+[110] Av San Juan Medellin: 40.0 km/h
+[111] Av El Poblado Medellin: 61.5 km/h
+[112] Av 80 Bello: 0.4 km/h
+[113] Av El Poblado Envigado: 35.7 km/h
+[114] Av San Juan Medellin: 0.2 km/h
+[115] Av El Poblado Envigado: 0.2 km/h
+[116] Av Las Vegas Envigado: 0.2 km/h
+[117] Av 80 Medellin: 38.6 km/h
+[118] Av El Poblado Envigado: 51.6 km/h
+[119] Av Las Vegas Sabaneta: 0.1 km/h
+[120] Av Regional Caldas: 0.2 km/h
+[121] Av Las Vegas Medellin: 50.6 km/h
+[122] Av Las Vegas Medellin: 35.6 km/h
+[123] Av 33 Medellin: 62.3 km/h
+[124] Av Las Vegas Sabaneta: 0.2 km/h
+[125] Av Oriental Medellin: 79.4 km/h
+[126] Av Las Vegas Sabaneta: 0.1 km/h
+[127] Av Oriental Medellin: 33.2 km/h
+[128] Av Las Vegas Sabaneta: 53.4 km/h
+[129] Av San Juan Medellin: 0.0 km/h
+[130] Av Oriental Medellin: 40.1 km/h
+[131] Av Guayabal Medellin: 8.3 km/h
+[132] Av 33 Medellin: 59.3 km/h
+[133] Av Regional Caldas: 34.9 km/h
+[134] Av Las Vegas Sabaneta: 39.7 km/h
+[135] Av Las Vegas Medellin: 9.7 km/h
+[136] Av Guayabal Medellin: 31.8 km/h
+[137] Av 80 Bello: 35.0 km/h
+[138] Av 80 Medellin: 59.4 km/h
+[139] Av Guayabal Medellin: 0.5 km/h
+[140] Av San Juan Medellin: 37.9 km/h
+[141] Av 33 Medellin: 8.6 km/h
+[142] Av Regional Medellin: 0.5 km/h
+[143] Av El Poblado Medellin: 61.4 km/h
+[144] Av El Poblado Envigado: 77.6 km/h
+[145] Av Regional La Estrella: 48.6 km/h
+[146] Av 33 Medellin: 52.3 km/h
+[147] Av El Poblado Medellin: 58.7 km/h
+[148] Av Oriental Medellin: 0.3 km/h
+[149] Av Regional Caldas: 74.4 km/h
+[150] Av El Poblado Envigado: 53.0 km/h
+[151] Av Regional Caldas: 41.6 km/h
+[152] Av Regional Medellin: 47.0 km/h
+[153] Av Las Vegas Envigado: 62.9 km/h
+[154] Av Regional Caldas: 78.6 km/h
+[155] Av 33 Medellin: 10.7 km/h
+[156] Av Regional Caldas: 0.3 km/h
+[157] Av Oriental Medellin: 11.9 km/h
+[158] Av Regional Medellin: 0.2 km/h
+[159] Av Las Vegas Envigado: 59.5 km/h
+[160] Av Regional Caldas: 0.2 km/h
+[161] Av 80 Medellin: 0.1 km/h
+[162] Av El Poblado Medellin: 78.9 km/h
+[163] Av El Poblado Medellin: 0.4 km/h
+[164] Av Regional Caldas: 46.3 km/h
+[165] Av Las Vegas Medellin: 0.4 km/h
+[166] Av 80 Bello: 0.3 km/h
+[167] Av 80 Medellin: 0.3 km/h
+[168] Av San Juan Medellin: 40.5 km/h
+[169] Av Regional Caldas: 0.0 km/h
+[170] Av 80 Bello: 0.4 km/h
+[171] Av 33 Medellin: 38.0 km/h
+[172] Av San Juan Medellin: 58.8 km/h
+[173] Av Guayabal Medellin: 65.6 km/h
+[174] Av Regional Bello: 47.9 km/h
+[175] Av Las Vegas Sabaneta: 53.4 km/h
+[176] Av San Juan Medellin: 9.3 km/h
+[177] Av El Poblado Medellin: 70.4 km/h
+[178] Av San Juan Medellin: 50.1 km/h
+[179] Av Las Vegas Sabaneta: 31.7 km/h
+[180] Av Las Vegas Sabaneta: 9.7 km/h
+[181] Av 33 Medellin: 49.7 km/h
+[182] Av San Juan Medellin: 53.6 km/h
+[183] Av Regional Bello: 68.1 km/h
+[184] Av Las Vegas Sabaneta: 43.5 km/h
+[185] Av Oriental Medellin: 57.2 km/h
+[186] Av 80 Medellin: 78.6 km/h
+[187] Av El Poblado Envigado: 57.1 km/h
+[188] Av San Juan Medellin: 35.1 km/h
+[189] Av Regional La Estrella: 11.3 km/h
+[190] Av Regional Medellin: 55.0 km/h
+[191] Av El Poblado Envigado: 43.6 km/h
+[192] Av 80 Bello: 40.5 km/h
+[193] Av Regional Medellin: 8.7 km/h
+[194] Av El Poblado Envigado: 0.1 km/h
+[195] Av Regional Medellin: 38.8 km/h
+[196] Av El Poblado Envigado: 65.9 km/h
+[197] Av Regional Caldas: 11.8 km/h
+[198] Av Las Vegas Envigado: 65.0 km/h
+[199] Av 80 Medellin: 67.8 km/h
+[200] Av Regional Caldas: 44.0 km/h
+[201] Av Oriental Medellin: 10.2 km/h
+[202] Av Las Vegas Envigado: 58.9 km/h
+[203] Av 80 Bello: 0.1 km/h
+[204] Av El Poblado Envigado: 0.2 km/h
+[205] Av Regional La Estrella: 68.4 km/h
+[206] Av San Juan Medellin: 64.7 km/h
+[207] Av 80 Bello: 35.7 km/h
+[208] Av Regional Bello: 50.6 km/h
+[209] Av El Poblado Envigado: 55.5 km/h
+[210] Av Regional Medellin: 75.2 km/h
+[211] Av Las Vegas Sabaneta: 69.1 km/h
+[212] Av Guayabal Medellin: 44.6 km/h
+[213] Av El Poblado Envigado: 74.9 km/h
+[214] Av Las Vegas Medellin: 0.4 km/h
+[215] Av El Poblado Medellin: 0.1 km/h
+[216] Av 80 Medellin: 0.4 km/h
+[217] Av Regional La Estrella: 0.2 km/h
+[218] Av Regional Caldas: 37.3 km/h
+[219] Av 80 Bello: 70.7 km/h
+[220] Av Regional La Estrella: 11.4 km/h
+[221] Av 80 Medellin: 52.7 km/h
+[222] Av Regional Medellin: 0.5 km/h
+[223] Av Regional La Estrella: 11.0 km/h
+[224] Av Oriental Medellin: 0.2 km/h
+[225] Av Regional La Estrella: 62.5 km/h
+[226] Av Las Vegas Medellin: 70.6 km/h
+[227] Av 33 Medellin: 0.5 km/h
+[228] Av Regional Caldas: 53.6 km/h
+[229] Av Regional La Estrella: 37.6 km/h
+[230] Av El Poblado Medellin: 67.4 km/h
+[231] Av Las Vegas Medellin: 76.7 km/h
+[232] Av 80 Bello: 38.2 km/h
+[233] Av Regional Medellin: 38.9 km/h
+[234] Av El Poblado Envigado: 55.8 km/h
+[235] Av Las Vegas Sabaneta: 48.9 km/h
+[236] Av Las Vegas Envigado: 50.7 km/h
+[237] Av 80 Medellin: 0.3 km/h
+[238] Av Las Vegas Medellin: 36.8 km/h
+[239] Av El Poblado Medellin: 10.1 km/h
+[240] Av El Poblado Medellin: 61.7 km/h
+[241] Av Las Vegas Sabaneta: 50.9 km/h
+[242] Av 33 Medellin: 74.2 km/h
+[243] Av Las Vegas Sabaneta: 33.2 km/h
+[244] Av Las Vegas Envigado: 57.7 km/h
+[245] Av San Juan Medellin: 55.3 km/h
+[246] Av Regional Bello: 60.9 km/h
+[247] Av 80 Medellin: 69.4 km/h
+[248] Av Regional La Estrella: 76.7 km/h
+[249] Av Las Vegas Envigado: 58.4 km/h
+[250] Av Las Vegas Sabaneta: 0.1 km/h
+Desconectado. Total enviados: 250

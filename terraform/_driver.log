@@ -1,0 +1,49 @@
+﻿ql_2.12-3.5.0-amzn-1.jar:3.5.0-amzn-1]
+	at org.apache.spark.sql.execution.streaming.StreamExecution.reportTimeTaken(StreamExecution.scala:67) ~[spark-sql_2.12-3.5.0-amzn-1.jar:3.5.0-amzn-1]
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.markMicroBatchEnd(MicroBatchExecution.scala:785) ~[spark-sql_2.12-3.5.0-amzn-1.jar:3.5.0-amzn-1]
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runBatch$19(MicroBatchExecution.scala:752) ~[spark-sql_2.12-3.5.0-amzn-1.jar:3.5.0-amzn-1]
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23) ~[scala-library-2.12.17.jar:?]
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.withProgressLocked(MicroBatchExecution.scala:810) ~[spark-sql_2.12-3.5.0-amzn-1.jar:3.5.0-amzn-1]
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.runBatch(MicroBatchExecution.scala:750) ~[spark-sql_2.12-3.5.0-amzn-1.jar:3.5.0-amzn-1]
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runActivatedStream$2(MicroBatchExecution.scala:286) ~[spark-sql_2.12-3.5.0-amzn-1.jar:3.5.0-amzn-1]
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23) ~[scala-library-2.12.17.jar:?]
+	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken(ProgressReporter.scala:427) ~[spark-sql_2.12-3.5.0-amzn-1.jar:3.5.0-amzn-1]
+	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken$(ProgressReporter.scala:425) ~[spark-sql_2.12-3.5.0-amzn-1.jar:3.5.0-amzn-1]
+	at org.apache.spark.sql.execution.streaming.StreamExecution.reportTimeTaken(StreamExecution.scala:67) ~[spark-sql_2.12-3.5.0-amzn-1.jar:3.5.0-amzn-1]
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runActivatedStream$1(MicroBatchExecution.scala:249) ~[spark-sql_2.12-3.5.0-amzn-1.jar:3.5.0-amzn-1]
+	at org.apache.spark.sql.execution.streaming.ProcessingTimeExecutor.execute(TriggerExecutor.scala:67) ~[spark-sql_2.12-3.5.0-amzn-1.jar:3.5.0-amzn-1]
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.runActivatedStream(MicroBatchExecution.scala:239) ~[spark-sql_2.12-3.5.0-amzn-1.jar:3.5.0-amzn-1]
+	at org.apache.spark.sql.execution.streaming.StreamExecution.$anonfun$runStream$1(StreamExecution.scala:311) ~[spark-sql_2.12-3.5.0-amzn-1.jar:3.5.0-amzn-1]
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23) ~[scala-library-2.12.17.jar:?]
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900) ~[spark-sql_2.12-3.5.0-amzn-1.jar:3.5.0-amzn-1]
+	at org.apache.spark.sql.execution.streaming.StreamExecution.org$apache$spark$sql$execution$streaming$StreamExecution$$runStream(StreamExecution.scala:289) ~[spark-sql_2.12-3.5.0-amzn-1.jar:3.5.0-amzn-1]
+	at org.apache.spark.sql.execution.streaming.StreamExecution$$anon$1.$anonfun$run$1(StreamExecution.scala:211) ~[spark-sql_2.12-3.5.0-amzn-1.jar:3.5.0-amzn-1]
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23) [scala-library-2.12.17.jar:?]
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94) [spark-core_2.12-3.5.0-amzn-1.jar:3.5.0-amzn-1]
+	at org.apache.spark.sql.execution.streaming.StreamExecution$$anon$1.run(StreamExecution.scala:211) [spark-sql_2.12-3.5.0-amzn-1.jar:3.5.0-amzn-1]
+26/11/17 23:17:36 WARN NettyRpcEnv: Ignored failure: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@69d000aa[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@4e6675cb[Wrapped task = org.apache.spark.rpc.netty.NettyRpcEnv$$anon$1@3d62e029]] rejected from java.util.concurrent.ScheduledThreadPoolExecutor@3bbd4b34[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+Exception in thread "stream execution thread for [id = 31e18969-e641-4bbe-bbc5-cb8bad9a7a4e, runId = b9c8b05d-efdb-4278-b3f9-90f51146660a]" org.apache.spark.SparkException: Exception thrown in awaitResult: 
+	at org.apache.spark.util.SparkThreadUtils$.awaitResult(SparkThreadUtils.scala:56)
+	at org.apache.spark.util.ThreadUtils$.awaitResult(ThreadUtils.scala:310)
+	at org.apache.spark.rpc.RpcTimeout.awaitResult(RpcTimeout.scala:75)
+	at org.apache.spark.rpc.RpcEndpointRef.askSync(RpcEndpointRef.scala:101)
+	at org.apache.spark.rpc.RpcEndpointRef.askSync(RpcEndpointRef.scala:85)
+	at org.apache.spark.sql.execution.streaming.state.StateStoreCoordinatorRef.deactivateInstances(StateStoreCoordinator.scala:119)
+	at org.apache.spark.sql.streaming.StreamingQueryManager.notifyQueryTermination(StreamingQueryManager.scala:426)
+	at org.apache.spark.sql.execution.streaming.StreamExecution.$anonfun$runStream$3(StreamExecution.scala:360)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at org.apache.spark.util.UninterruptibleThread.runUninterruptibly(UninterruptibleThread.scala:77)
+	at org.apache.spark.sql.execution.streaming.StreamExecution.org$apache$spark$sql$execution$streaming$StreamExecution$$runStream(StreamExecution.scala:340)
+	at org.apache.spark.sql.execution.streaming.StreamExecution$$anon$1.$anonfun$run$1(StreamExecution.scala:211)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94)
+	at org.apache.spark.sql.execution.streaming.StreamExecution$$anon$1.run(StreamExecution.scala:211)
+Caused by: org.apache.spark.rpc.RpcEnvStoppedException: RpcEnv already stopped.
+	at org.apache.spark.rpc.netty.Dispatcher.postMessage(Dispatcher.scala:176)
+	at org.apache.spark.rpc.netty.Dispatcher.postLocalMessage(Dispatcher.scala:144)
+	at org.apache.spark.rpc.netty.NettyRpcEnv.askAbortable(NettyRpcEnv.scala:242)
+	at org.apache.spark.rpc.netty.NettyRpcEndpointRef.askAbortable(NettyRpcEnv.scala:554)
+	at org.apache.spark.rpc.netty.NettyRpcEndpointRef.ask(NettyRpcEnv.scala:558)
+	at org.apache.spark.rpc.RpcEndpointRef.askSync(RpcEndpointRef.scala:100)
+	... 11 more
+

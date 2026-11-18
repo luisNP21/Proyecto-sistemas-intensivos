@@ -1,0 +1,58 @@
+# ---- Terraform ----
+**/.terraform/*
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+*.tfplan
+
+# ---- Secretos / credenciales / claves ----
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*_cert.pem
+*_private.key
+*.env
+.env
+.env.*
+!*.env.example
+aws-credentials*
+secrets/
+certs/
+
+# ---- Build artefactos Lambda ----
+*.zip
+build/
+.build/
+dist/
+layer/
+python/
+.package/
+terraform/.build/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# ---- IDE / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

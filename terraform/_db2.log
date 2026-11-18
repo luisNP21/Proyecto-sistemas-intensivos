@@ -1,0 +1,24 @@
+﻿python : Traceback (most recent call last):
+At line:1 char:156
++ ... S_DEFAULT_REGION="us-east-1"; python scripts/check_db.py 2>&1 | Out-F ...
++                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last) 
+   ::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\luisa\OneDrive\Documentos\Universidad\sistemas 
+intesivos\Proyecto\Proyecto-sistemas-intensivos\scripts\check_db.py", line 14, 
+in <module>
+    conn = psycopg2.connect(host=s["host"], port=int(s["port"]), 
+dbname=s["dbname"],
+                            user=s["username"], password=s["password"], 
+connect_timeout=15,
+                            sslmode="require")
+  File "C:\Users\luisa\AppData\Local\Programs\Python\Python313\Lib\site-package
+s\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "trafico-valle-2026111703455
+9324100000013.cgzyieaau810.us-east-1.rds.amazonaws.com" (184.192.44.133), port 
+5432 failed: timeout expired
+
+EXIT=1

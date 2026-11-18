@@ -1,0 +1,4 @@
+schemas: analytics, oltp
+oltp.accidentes: 500 filas
+analytics.accidentes_agg: 354 filas
+analytics.lecturas_trafico: 0 filas

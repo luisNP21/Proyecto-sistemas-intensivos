@@ -1,0 +1,6 @@
+﻿00gacmrm1rhqfg0b	FAILED	Job failed, please check complete logs in configured logging destination. ExitCode: 1. Last few exceptions: java.lang.AssertionError: assertion failed: Invalid batch: sensor_id#0,ciudad#1,avenida#2,velocidad_kmh#3,ts#4 != sensor_id#80,ciudad#81,avenida#82,velocidad_kmh#83,ts#84,dt#85
+26/11/17 23:00:14 ERROR MicroBatchExecution: Query [id = 641c6aab-f859-4fad-80a8-bf8dd58583c0, runId = 5eb23667-766b-4dc1-82fd-196262e492d7] terminated with error
+software.amazon.awssdk.services.emrserverlessresourcemanager.model.ApplicationMaxCapacityExceededException: Worker could not be allocated as the application has exceeded maximumCapacity settings: [cpu: 8 vCPU] (Service: EmrServerlessResourceManager, Status Code: 402, Request ID: ae49fbfe-40ca-4a88-80f8-45508899bfea)
+26/11/17 19:28:43 WARN DefaultEmrServerlessRMClient: Encountered exception when requesting SPARK_EXECUTOR containers. Future container launch rate will be slowed down until recovered. Next call will be allowed after 39000ms.
+software.amazon.awssdk.services.emrserverlessresourcemanager.model.ApplicationMaxCapacityExceededException: Worker could not be allocated as the application has exceeded maximumCapacity settings: [cpu: 8 vCPU] (Service: EmrServerlessResourceManager, Status Code: 402, Request ID: 198ea6b2-d08e-41d0-9233-0d92ae1cc320)...
+

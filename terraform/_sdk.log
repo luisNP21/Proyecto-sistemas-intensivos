@@ -1,0 +1,11 @@
+﻿python : 
+At line:1 char:1
++ python -m pip install --quiet awsiotsdk 2>&1 | Out-String | Out-File  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[notice] A new release of pip is available: 26.2.1 -> 26.3
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+awsiotsdk OK

@@ -1,0 +1,8 @@
+﻿      ~ last_modified                  = "2026-11-17T03:46:13.063+0000" -> (known after apply)
+module.lambda_stream.aws_lambda_function.this: Modifying... [id=trafico-valle-mueve-datos]
+module.lambda_stream.aws_lambda_function.this: Modifications complete after 6s [id=trafico-valle-mueve-datos]
+Apply complete! Resources: 0 added, 1 changed, 0 destroyed.
+---CLEAN---
+delete: s3://trafico-valle-data-609789571098/checkpoints/streaming_$folder$
+
+CLEANED

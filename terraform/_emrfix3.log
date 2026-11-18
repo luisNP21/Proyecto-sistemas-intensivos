@@ -1,0 +1,15 @@
+﻿+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+Error: updating EMR Serveless Application (00gacmrbnn0rsc09): operation error 
+EMR Serverless: UpdateApplication, https response error StatusCode: 400, 
+RequestID: a0aaf54f-2b44-4653-ae71-1f2dce3ba806, ValidationException: Only the 
+following configurations can be updated when an application is in STARTED 
+state: schedulerConfiguration.maxConcurrentRuns, extendedSupportConfiguration, 
+imageConfiguration, workerTypeSpecifications.imageConfiguration, 
+maximumCapacity.
+  with module.emr_serverless.aws_emrserverless_application.this[0],
+  on modules\emr_serverless\main.tf line 17, in resource 
+"aws_emrserverless_application" "this":
+  17: resource "aws_emrserverless_application" "this" {
+EXIT=1

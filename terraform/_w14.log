@@ -1,0 +1,10 @@
+﻿schemas: analytics, oltp
+oltp.accidentes: 500 filas
+analytics.accidentes_agg: 354 filas
+analytics.lecturas_trafico: 132 filas
+ultimas lecturas_trafico:
+  (datetime.datetime(2026, 11, 17, 23, 22, tzinfo=datetime.timezone.utc), 'Envigado', 'Av Las Vegas', 49.08, 'sin_incidente')
+  (datetime.datetime(2026, 11, 17, 23, 22, tzinfo=datetime.timezone.utc), 'La Estrella', 'Av Regional', 2.36, 'choque_cercano')
+  (datetime.datetime(2026, 11, 17, 23, 22, tzinfo=datetime.timezone.utc), 'Medellin', 'Av Guayabal', 38.4, 'sin_incidente')
+  (datetime.datetime(2026, 11, 17, 23, 22, tzinfo=datetime.timezone.utc), 'Medellin', 'Av 80', 70.5, 'sin_incidente')
+  (datetime.datetime(2026, 11, 17, 23, 22, tzinfo=datetime.timezone.utc), 'Caldas', 'Av Regional', 0.4, 'choque')

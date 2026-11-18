@@ -1,0 +1,16 @@
+WARNING: spark.log4jHotPatch.enabled is set to true, but /usr/share/log4j-cve-2021-44228-hotpatch/jdk17/Log4jHotPatchFat.jar does not exist at the configured location
+Files s3://trafico-valle-artifacts-609789571098/jars/postgresql-jdbc.jar from /tmp/spark-3f0dbcaf-3544-4e5f-8fc2-9b5d0c985233/postgresql-jdbc.jar to /home/hadoop/postgresql-jdbc.jar
+26/11/17 23:16:40 INFO SecurityManager: SecurityManager: authentication enabled; ui acls disabled; users with view permissions: hadoop; groups with view permissions: EMPTY; users with modify permissions: hadoop; groups with modify permissions: EMPTY
+26/11/17 23:16:40 INFO SparkContext: Added JAR file:/tmp/spark-3f0dbcaf-3544-4e5f-8fc2-9b5d0c985233/postgresql-jdbc.jar at spark://[2600:1f10:4d2f:a201:e00e:e5f3:bfd6:8f90]:32921/jars/postgresql-jdbc.jar with timestamp 1794957399850
+26/11/17 23:17:35 ERROR MicroBatchExecution: Query [id = 0e41db7f-44d8-484d-8d52-daa71cd9a191, runId = f57dff17-37ca-4d71-81ce-605ba4d645c5] terminated with error
+py4j.Py4JException: An exception was raised by the Python Proxy. Return Message: Traceback (most recent call last):
+  File "/usr/lib/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 617, in _call_proxy
+  File "/usr/lib/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1322, in __call__
+	at py4j.Protocol.getReturnValue(Protocol.java:476) ~[py4j-0.10.9.7.jar:?]
+	at py4j.reflection.PythonProxyHandler.invoke(PythonProxyHandler.java:108) ~[py4j-0.10.9.7.jar:?]
+	at org.apache.spark.sql.execution.streaming.sources.PythonForeachBatchHelper$.$anonfun$callForeachBatch$1(ForeachBatchSink.scala:57) ~[spark-sql_2.12-3.5.0-amzn-1.jar:3.5.0-amzn-1]
+	at org.apache.spark.sql.execution.streaming.sources.PythonForeachBatchHelper$.$anonfun$callForeachBatch$1$adapted(ForeachBatchSink.scala:57) ~[spark-sql_2.12-3.5.0-amzn-1.jar:3.5.0-amzn-1]
+	at org.apache.spark.sql.execution.streaming.sources.ForeachBatchSink.addBatch(ForeachBatchSink.scala:38) ~[spark-sql_2.12-3.5.0-amzn-1.jar:3.5.0-amzn-1]
+26/11/17 23:17:36 ERROR MicroBatchExecution: Query [id = 31e18969-e641-4bbe-bbc5-cb8bad9a7a4e, runId = b9c8b05d-efdb-4278-b3f9-90f51146660a] terminated with error
+	at org.apache.spark.rpc.RpcTimeout.awaitResult(RpcTimeout.scala:75)
+Caused by: org.apache.spark.rpc.RpcEnvStoppedException: RpcEnv already stopped.

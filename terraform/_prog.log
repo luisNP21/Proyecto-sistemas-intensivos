@@ -1,0 +1,5 @@
+26/11/17 23:20:22 ERROR MicroBatchExecution: Query [id = 0e41db7f-44d8-484d-8d52-daa71cd9a191, runId = e0eaf3dc-18e8-4867-ba0e-b3c249ed2578] terminated with error
+py4j.Py4JException: An exception was raised by the Python Proxy. Return Message: Traceback (most recent call last):
+: org.postgresql.util.PSQLException: ERROR: type "string" does not exist
+	at org.apache.spark.sql.execution.streaming.sources.ForeachBatchSink.addBatch(ForeachBatchSink.scala:38)
+	at org.apache.spark.sql.execution.streaming.sources.ForeachBatchSink.addBatch(ForeachBatchSink.scala:38) ~[spark-sql_2.12-3.5.0-amzn-1.jar:3.5.0-amzn-1]

@@ -1,0 +1,6 @@
+﻿=APP=
+trafico-valle-streaming	STARTED	arn:aws:emr-serverless:us-east-1:609789571098:/applications/00gacmrbnn0rsc09
+
+=JOBS=
+00gacmrm1rhqfg0b	trafico-valle-streaming-job	RUNNING	2026-11-17T14:25:56.184000-05:00
+

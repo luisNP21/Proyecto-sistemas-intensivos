@@ -1,0 +1,31 @@
+# Copia este archivo a terraform.tfvars y rellena tus valores.
+# terraform.tfvars NO se sube a git (ver .gitignore).
+
+project_name = "trafico-valle"
+aws_region   = "us-east-1"
+
+# Correo donde llegaran las alarmas. Tendras que confirmar la suscripcion desde tu bandeja.
+alert_email = "tu-correo@ejemplo.com"
+
+# Tu IP publica /32 para abrir el puerto 5432 del RDS solo a ti.
+# Averiguala con:  curl https://checkip.amazonaws.com
+my_ip_cidr = "1.2.3.4/32"
+
+# Base de datos
+db_name     = "trafico"
+db_username = "trafico_admin"
+
+# QuickSight (tu cuenta ya tiene QuickSight activo).
+# Obten el ARN de tu usuario con:
+#   aws quicksight list-users --aws-account-id <ACCOUNT_ID> --namespace default --region <REGION>
+# Formato: arn:aws:quicksight:<REGION>:<ACCOUNT_ID>:user/default/<USERNAME>
+quicksight_user_arn  = ""
+quicksight_namespace = "default"
+
+# Flags opcionales
+enable_quicksight    = true
+enable_emr_streaming = true
+
+# VPC endpoints para que Lambda/EMR en VPC alcancen S3/Secrets/CloudWatch sin NAT.
+# true es lo recomendado (los interface endpoints tienen costo/hora; destruye al terminar).
+enable_vpc_endpoints = true

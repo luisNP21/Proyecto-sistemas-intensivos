@@ -1,0 +1,6 @@
+﻿Job failed, please check complete logs in configured logging destination. ExitCode: 1. Last few exceptions: [PARSE_SYNTAX_ERROR] Syntax error at or near 'PRECISION'.(line 1, pos 98)
+pyspark.errors.exceptions.captured.ParseException: 
+  File "/usr/lib/spark/python/lib/pyspark.zip/pyspark/errors/exceptions/captured.py", line 185, in deco
+py4j.Py4JException: An exception was raised by the Python Proxy. Return Message: Traceback (most recent call last):
+26/11/17 23:09:02 ERROR MicroBatchExecution: Query [id = 880c5517-80ba-47d7-ba25-48e0b0b97056, runId = ca9cd0e3-ce2a-48ed-80aa-8b68a3e27202] terminated with error...
+

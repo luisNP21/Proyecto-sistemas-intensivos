@@ -1,0 +1,7 @@
+﻿      ~ last_modified                  = "2026-11-17T19:27:48.517+0000" -> (known after apply)
+module.batch_layer.aws_s3_object.layer: Modifying... [id=layers/batch-deps.zip]
+module.batch_layer.aws_s3_object.layer: Modifications complete after 8s [id=layers/batch-deps.zip]
+module.lambda_batch.aws_lambda_function.this: Modifying... [id=trafico-valle-procesar-historico]
+module.lambda_batch.aws_lambda_function.this: Modifications complete after 6s [id=trafico-valle-procesar-historico]
+Apply complete! Resources: 0 added, 2 changed, 0 destroyed.
+EXIT=0

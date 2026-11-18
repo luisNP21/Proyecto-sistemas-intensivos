@@ -1,0 +1,7 @@
+﻿FAILED	Job failed, please check complete logs in configured logging destination. ExitCode: 1. Last few exceptions: java.lang.NullPointerException: Cannot invoke "org.apache.hadoop.fs.FileSystem.getFileBlockLocations(org.apache.hadoop.fs.FileStatus, long, long)" because "this.fileSystem" is null
+26/11/17 23:12:49 ERROR MicroBatchExecution: Query [id = 641c6aab-f859-4fad-80a8-bf8dd58583c0, runId = e945adcf-6e93-4765-9af3-b630a20d94bb] terminated with error
+pyspark.errors.exceptions.captured.ParseException: 
+  File "/usr/lib/spark/python/lib/pyspark.zip/pyspark/errors/exceptions/captured.py", line 185, in deco
+py4j.Py4JException: An exception was raised by the Python Proxy. Return Message: Traceback (most recent call last):
+26/11/17 23:12:49 ERROR MicroBatchExecution: Query [id = 880c5517-80ba-47d7-ba25-48e0b0b97056, runId = 6001fa7a-1690-48a1-a57a-603744d10111] terminated with error...
+

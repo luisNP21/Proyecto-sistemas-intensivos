@@ -1,0 +1,12 @@
+﻿2026-11-17 18:17:41       4888 emr-logs/applications/00gacmrbnn0rsc09/jobs/00gacqvf9f5i4o0b/SPARK_DRIVER/archived/stderr/stderr_0.gz
+2026-11-17 18:17:42        888 emr-logs/applications/00gacmrbnn0rsc09/jobs/00gacqvf9f5i4o0b/SPARK_DRIVER/archived/stdout/stdout_0.gz
+2026-11-17 18:17:38       4888 emr-logs/applications/00gacmrbnn0rsc09/jobs/00gacqvf9f5i4o0b/SPARK_DRIVER/stderr.gz
+2026-11-17 18:17:39        888 emr-logs/applications/00gacmrbnn0rsc09/jobs/00gacqvf9f5i4o0b/SPARK_DRIVER/stdout.gz
+2026-11-17 18:17:40       5679 emr-logs/applications/00gacmrbnn0rsc09/jobs/00gacqvf9f5i4o0b/SPARK_EXECUTOR/1/archived/stderr/stderr_0.gz
+2026-11-17 18:17:41       1798 emr-logs/applications/00gacmrbnn0rsc09/jobs/00gacqvf9f5i4o0b/SPARK_EXECUTOR/1/archived/stdout/stdout_0.gz
+2026-11-17 18:17:38       5679 emr-logs/applications/00gacmrbnn0rsc09/jobs/00gacqvf9f5i4o0b/SPARK_EXECUTOR/1/stderr.gz
+2026-11-17 18:17:39       1798 emr-logs/applications/00gacmrbnn0rsc09/jobs/00gacqvf9f5i4o0b/SPARK_EXECUTOR/1/stdout.gz
+2026-11-17 18:16:29        220 emr-logs/applications/00gacmrbnn0rsc09/jobs/00gacqvf9f5i4o0b/job-metadata.log
+2026-11-17 18:17:26          2 emr-logs/applications/00gacmrbnn0rsc09/jobs/00gacqvf9f5i4o0b/sparklogs/eventlog_v2_00gacqvf9f5i4o0b/appstatus_00gacqvf9f5i4o0b
+2026-11-17 18:17:40     432140 emr-logs/applications/00gacmrbnn0rsc09/jobs/00gacqvf9f5i4o0b/sparklogs/eventlog_v2_00gacqvf9f5i4o0b/events_0_00gacqvf9f5i4o0b
+

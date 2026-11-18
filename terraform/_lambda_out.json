@@ -1,0 +1,1 @@
+{"errorMessage": "I/O operation on closed file.", "errorType": "ValueError", "requestId": "faa95b2c-d57f-4c23-9d9f-1c8dab0ca324", "stackTrace": ["  File \"/var/task/handler.py\", line 121, in handler\n    n_ok = _put_parquet(df_ok, \"curated/\") if not df_ok.empty else 0\n", "  File \"/var/task/handler.py\", line 56, in _put_parquet\n    buf.seek(0)\n"]}

@@ -1,0 +1,5 @@
+﻿Certificados exportados a: C:\Users\luisa\OneDrive\Documentos\Universidad\sistemas intesivos\Proyecto\Proyecto-sistemas-intensivos\scripts\..\src\simulator\certs
+Endpoint IoT: a1051pcdpv4k7n-ats.iot.us-east-1.amazonaws.com
+
+Ejemplo para correr el simulador:
+  python src/simulator/simulador.py --endpoint a1051pcdpv4k7n-ats.iot.us-east-1.amazonaws.com --cert C:\Users\luisa\OneDrive\Documentos\Universidad\sistemas intesivos\Proyecto\Proyecto-sistemas-intensivos\scripts\..\src\simulator\certs\device.pem.crt --key C:\Users\luisa\OneDrive\Documentos\Universidad\sistemas intesivos\Proyecto\Proyecto-sistemas-intensivos\scripts\..\src\simulator\certs\private.pem.key --root-ca C:\Users\luisa\OneDrive\Documentos\Universidad\sistemas intesivos\Proyecto\Proyecto-sistemas-intensivos\scripts\..\src\simulator\certs\AmazonRootCA1.pem --topic trafico/lecturas

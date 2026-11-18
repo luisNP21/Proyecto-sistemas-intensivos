@@ -1,0 +1,27 @@
+﻿JException: An exception was raised by the Python Proxy. Return Message: Traceback (most recent call last):
+  File "/usr/lib/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 617, in _call_proxy
+    return_value = getattr(self.pool[obj_id], method)(*params)
+  File "/usr/lib/spark/python/lib/pyspark.zip/pyspark/sql/utils.py", line 120, in call
+    raise e
+  File "/usr/lib/spark/python/lib/pyspark.zip/pyspark/sql/utils.py", line 117, in call
+    self.func(DataFrame(jdf, wrapped_session_jdf), batch_id)
+  File "/tmp/spark-3f0dbcaf-3544-4e5f-8fc2-9b5d0c985233/streaming_job.py", line 118, in escribir_agg
+    (batch_df.write
+  File "/usr/lib/spark/python/lib/pyspark.zip/pyspark/sql/readwriter.py", line 1461, in save
+    self._jwrite.save()
+  File "/usr/lib/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "/usr/lib/spark/python/lib/pyspark.zip/pyspark/errors/exceptions/captured.py", line 185, in deco
+    raise converted from None
+pyspark.errors.exceptions.captured.ParseException: 
+[UNSUPPORTED_DATATYPE] Unsupported data type "TEXT".(line 1, pos 56)
+
+== SQL ==
+ventana_inicio TIMESTAMP, ventana_fin TIMESTAMP, ciudad TEXT, avenida TEXT, velocidad_prom DOUBLE, lecturas INT, estado TEXT
+--------------------------------------------------------^^^
+
+
+	at py4j.Protocol.getReturnValue(Protocol.java:476) ~[py4j-0.10.9.7.jar:?]
+	at py4j.reflection.PythonProxyHandler.invoke(PythonProxyHandler.java:108) ~[py4j-0.10.9.7.jar:?]
+	at jdk.proxy3.$Proxy56.call(Unknown Source) ~[?:?]
+	at org.apache.spark.sql.execution.streaming.sources.PythonForeachBatchHelper$.$anonfun$callForeachBatch$1(ForeachBatchSink

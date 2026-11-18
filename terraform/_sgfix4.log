@@ -1,0 +1,4 @@
+﻿module.network.aws_vpc_security_group_ingress_rule.from_my_ip: Modifying... [id=sgr-08e5e29c75481450d]
+module.network.aws_vpc_security_group_ingress_rule.from_my_ip: Modifications complete after 1s [id=sgr-08e5e29c75481450d]
+Apply complete! Resources: 0 added, 1 changed, 0 destroyed.
+EXIT=0
